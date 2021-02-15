@@ -1,0 +1,24 @@
+{
+  "name": "matrix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . Matrix --platform=win32 --overwrite --out ./builds"
+  },
+  "author": "Maxim Telegin",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.6.0",
+    "bootstrap": "^5.0.0-beta2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "excel4node": "^1.7.2",
+    "fs-extra": "^9.1.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^15.2.0",
+    "electron": "^11.2.3"
+  }
+}
